@@ -1,13 +1,7 @@
-[] fix menu button alignment in the header
-[] add back in the 'previously' section and flags - nyc, clt, syracuse - flags are images/icons/syracuse.png, /charlotte.png, /iheartny.png - this is it's own section, flags are 24px high, flex col with slight gap. no border radius! - link both the map and flags to apple maps.
-[] fix subheader section aligment in top artists
-[] add tooltip to subscribe explaining that it's coming soon
-[] add 'freelancer, 2014-2018' to work under isotropic, and move advisor on top of isotropic.
-[] fix mobile overflows and positoning of tooltips. Mainly on mobile there are issues with the tooltip positioning. auto relocate top button left right if it bumps into the body edges.
-[] remove ALL effects and styles and structure related to making the header text fade in and out. On mobile, it's JWL. On desktop, it's the normal title. use 2 seperate HTML elements.
-[] refactor just the CSS to be more logical and BEM!
-[] replace headshot in header with images/me/lepage.svg, 24px high, and link to homepage.
-[] add missing links. remember, the domain is https://j.cv. linkedin is https://www.linkedin.com/in/jameswlepage/
-[] link spotify icons to the relevant artists.
-[] make press view all sublink to James W LePAge google search results.
-[] make no changes to the look and feel when making these modifications. only add and fix.
+- fix the mobile menu button alignment in the header
+- Replace the tooltips with Tippy while keeping the underlines intact
+- Make the previously sectioned flex row and hide the locations adding them as title attributes to the images.
+- Fix the scrolling overflow which is probably caused by the repositioning of the tooltips
+- The menu overlay on mobile when toggled covers the close button which needs to be fixed.
+- Now that we're using Tippy, let's add a tooltip to the Texas flag icon within the Austin, Texas section that says yeehaw with a cowboy emoji.
+- Center the copyright text in the footer.
