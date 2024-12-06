@@ -1,0 +1,38 @@
+{
+    "version": "1.0",
+    "site_name": "J.CV",
+    "pages": [
+        {
+            "url": "https://j.cv/",
+            "title": "Homepage",
+            "description": "Personal website and CV",
+            "allowed_actions": [
+                "read",
+                "navigate",
+                "extract_text"
+            ],
+            "instructions": {
+                "purpose": "This page serves as a personal CV and portfolio",
+                "interaction_guidelines": "AI agents may read and extract public information displayed on the page",
+                "restrictions": "No form submission or authentication attempts"
+            },
+            "metadata": {
+                "last_updated": "2024-03-19",
+                "content_type": "profile",
+                "language": "en"
+            }
+        }
+    ],
+    "global_settings": {
+        "crawl_delay": 10,
+        "requires_authentication": false,
+        "rate_limit": {
+            "requests_per_minute": 60
+        },
+        "prohibited_actions": [
+            "form_submission",
+            "authentication",
+            "data_modification"
+        ]
+    }
+}
