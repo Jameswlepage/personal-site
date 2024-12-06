@@ -599,6 +599,7 @@ strong {
   .content-section__aside {
     align-items: flex-start;
     width: 100%;
+    border-left: dotted 1px #000;
   }
 
   .content-section__content {

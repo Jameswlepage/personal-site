@@ -1,7 +1,1 @@
-- fix the mobile menu button alignment in the header
-- Replace the tooltips with Tippy while keeping the underlines intact
-- Make the previously sectioned flex row and hide the locations adding them as title attributes to the images.
-- Fix the scrolling overflow which is probably caused by the repositioning of the tooltips
-- The menu overlay on mobile when toggled covers the close button which needs to be fixed.
-- Now that we're using Tippy, let's add a tooltip to the Texas flag icon within the Austin, Texas section that says yeehaw with a cowboy emoji.
-- Center the copyright text in the footer.
+Everything is as it should be.
