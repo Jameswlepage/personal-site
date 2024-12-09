@@ -298,6 +298,13 @@ strong {
   border-radius: 5px;
 }
 
+@media (max-width: 700px) {
+  .intro-text__image {
+    width: 30vw;
+    max-width: 100px;
+  }
+}
+
 .intro-text__heading {
   margin-bottom: 8px;
   margin-top: -2px;
