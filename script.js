@@ -16,6 +16,12 @@ function adjustDots() {
             usedWidth += el.offsetWidth + marginLeft + marginRight;
         });
 
+        // Also account for gaps in flex layout
+        const containerStyle = window.getComputedStyle(container);
+        const gap = parseFloat(containerStyle.gap) || 0;
+        const totalGaps = gap * (children.length - 1);
+        usedWidth += totalGaps;
+
         const totalWidth = container.clientWidth;
         const available = totalWidth - usedWidth;
 
